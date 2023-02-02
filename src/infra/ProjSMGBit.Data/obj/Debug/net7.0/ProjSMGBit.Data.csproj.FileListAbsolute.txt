@@ -1,0 +1,17 @@
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\infra\ProjSMGBit.Data\obj\Debug\net7.0\ProjSMGBit.Data.csproj.AssemblyReference.cache
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\infra\ProjSMGBit.Data\obj\Debug\net7.0\ProjSMGBit.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\infra\ProjSMGBit.Data\obj\Debug\net7.0\ProjSMGBit.Data.AssemblyInfoInputs.cache
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\infra\ProjSMGBit.Data\obj\Debug\net7.0\ProjSMGBit.Data.AssemblyInfo.cs
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\infra\ProjSMGBit.Data\obj\Debug\net7.0\ProjSMGBit.Data.csproj.CoreCompileInputs.cache
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\infra\ProjSMGBit.Data\bin\Debug\net7.0\ProjSMGBit.Data.deps.json
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\infra\ProjSMGBit.Data\bin\Debug\net7.0\ProjSMGBit.Data.runtimeconfig.json
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\infra\ProjSMGBit.Data\bin\Debug\net7.0\ProjSMGBit.Data.dll
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\infra\ProjSMGBit.Data\bin\Debug\net7.0\ProjSMGBit.Data.pdb
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\infra\ProjSMGBit.Data\bin\Debug\net7.0\ProjSMGBit.Domain.dll
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\infra\ProjSMGBit.Data\bin\Debug\net7.0\ProjSMGBit.Domain.pdb
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\infra\ProjSMGBit.Data\obj\Debug\net7.0\ProjSMGBit.Data.csproj.CopyComplete
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\infra\ProjSMGBit.Data\obj\Debug\net7.0\ProjSMGBit.Data.dll
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\infra\ProjSMGBit.Data\obj\Debug\net7.0\refint\ProjSMGBit.Data.dll
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\infra\ProjSMGBit.Data\obj\Debug\net7.0\ProjSMGBit.Data.pdb
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\infra\ProjSMGBit.Data\obj\Debug\net7.0\ProjSMGBit.Data.genruntimeconfig.cache
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\infra\ProjSMGBit.Data\obj\Debug\net7.0\ref\ProjSMGBit.Data.dll

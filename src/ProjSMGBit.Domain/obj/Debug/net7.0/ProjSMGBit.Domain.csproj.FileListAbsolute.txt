@@ -1,0 +1,12 @@
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\ProjSMGBit.Domain\bin\Debug\net7.0\ProjSMGBit.Domain.deps.json
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\ProjSMGBit.Domain\bin\Debug\net7.0\ProjSMGBit.Domain.dll
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\ProjSMGBit.Domain\bin\Debug\net7.0\ProjSMGBit.Domain.pdb
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\ProjSMGBit.Domain\obj\Debug\net7.0\ProjSMGBit.Domain.csproj.AssemblyReference.cache
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\ProjSMGBit.Domain\obj\Debug\net7.0\ProjSMGBit.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\ProjSMGBit.Domain\obj\Debug\net7.0\ProjSMGBit.Domain.AssemblyInfoInputs.cache
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\ProjSMGBit.Domain\obj\Debug\net7.0\ProjSMGBit.Domain.AssemblyInfo.cs
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\ProjSMGBit.Domain\obj\Debug\net7.0\ProjSMGBit.Domain.csproj.CoreCompileInputs.cache
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\ProjSMGBit.Domain\obj\Debug\net7.0\ProjSMGBit.Domain.dll
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\ProjSMGBit.Domain\obj\Debug\net7.0\refint\ProjSMGBit.Domain.dll
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\ProjSMGBit.Domain\obj\Debug\net7.0\ProjSMGBit.Domain.pdb
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\ProjSMGBit.Domain\obj\Debug\net7.0\ref\ProjSMGBit.Domain.dll

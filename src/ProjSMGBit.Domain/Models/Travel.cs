@@ -12,15 +12,15 @@ namespace ProjSMGBit.Domain.Models
 
         public int TravelId { get; private set; }
 
-        public string Driver { get; private set;}
+        public string Driver { get; private set;} = string.Empty;
 
-        public string Plate { get; private set; }
+        public string Plate { get; private set; } = string.Empty;
 
         public TruckType VehicleType { get; private set; }
 
         public Operation Origin { get; private set; }
 
-        public string Destination { get; private set; }
+        public string Destination { get; private set; } = string.Empty;
 
         public int LoadedBoxes { get; private set; }
 
