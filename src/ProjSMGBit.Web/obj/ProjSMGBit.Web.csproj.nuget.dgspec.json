@@ -4,14 +4,181 @@
     "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Web\\ProjSMGBit.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Web\\ProjSMGBit.Web.csproj": {
+    "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\ProjSMGBit.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Web\\ProjSMGBit.Web.csproj",
-        "projectName": "ProjSMGBit.Web",
-        "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Web\\ProjSMGBit.Web.csproj",
+        "projectUniqueName": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\ProjSMGBit.Data.csproj",
+        "projectName": "ProjSMGBit.Data",
+        "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\ProjSMGBit.Data.csproj",
         "packagesPath": "C:\\Users\\wende\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Web\\obj\\",
+        "outputPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wende\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj": {
+                "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj",
+        "projectName": "ProjSMGBit.Application",
+        "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj",
+        "packagesPath": "C:\\Users\\wende\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wende\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\ProjSMGBit.Data.csproj": {
+                "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\ProjSMGBit.Data.csproj"
+              },
+              "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj": {
+                "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj",
+        "projectName": "ProjSMGBit.Domain",
+        "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj",
+        "packagesPath": "C:\\Users\\wende\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wende\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,8 +204,74 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Web\\ProjSMGBit.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Web\\ProjSMGBit.Web.csproj",
+        "projectName": "ProjSMGBit.Web",
+        "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Web\\ProjSMGBit.Web.csproj",
+        "packagesPath": "C:\\Users\\wende\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wende\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj": {
+                "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj"
+              },
+              "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj": {
+                "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.2, )"
             },

@@ -1,9 +1,10 @@
 using ProjSMGBit.Application.DI;
 
+//IConfiguration configuration;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-Initializer.Configure(builder.Services, Configuration[ConnectionStrings:DefaultConnection]);
+Initializer.Configure(builder.Services, Configuration.GetConnectionString("DefaultConnection"));
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

@@ -8,6 +8,7 @@ using ProjSMGBit.Data.Context;
 using ProjSMGBit.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Pomelo.EntityFrameworkCore.MySql;
 
 namespace ProjSMGBit.Application.DI
 {
@@ -15,12 +16,13 @@ namespace ProjSMGBit.Application.DI
     {
         public static void Configure(IServiceCollection services, string connection)
         {
-            services.AddDbContext<AppDbContext> (options => options.UseMySql(connection));
+            services.AddDbContext<AppDbContext> (options => options.UseMySql(connection,
+                     Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(connection)));
 
-            services.AddScopped(typeof(IRepository<Travel>), typeof(TravelRepository));
-            services.AddScopped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped(typeof(IRepository<Travel>), typeof(TravelRepository));
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             //services.AddScopped(typeof (TravelService));
-            services.AddScopped(typeof(IUnitOfWork), typeof(UnitOfWork));
+            services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
         }
     }
 }
