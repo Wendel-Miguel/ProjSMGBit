@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj": {}
+    "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\ProjSMGBit.Data.csproj": {
+    "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\ProjSMGBit.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\ProjSMGBit.Data.csproj",
+        "projectUniqueName": "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\ProjSMGBit.Data.csproj",
         "projectName": "ProjSMGBit.Data",
-        "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\ProjSMGBit.Data.csproj",
+        "projectPath": "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\ProjSMGBit.Data.csproj",
         "packagesPath": "C:\\Users\\wende\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\obj\\",
+        "outputPath": "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wende\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj": {
-                "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj"
+              "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj": {
+                "projectPath": "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj": {
+    "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj",
+        "projectUniqueName": "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj",
         "projectName": "ProjSMGBit.Application",
-        "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj",
+        "projectPath": "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj",
         "packagesPath": "C:\\Users\\wende\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\obj\\",
+        "outputPath": "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wende\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -109,11 +109,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\ProjSMGBit.Data.csproj": {
-                "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\ProjSMGBit.Data.csproj"
+              "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\ProjSMGBit.Data.csproj": {
+                "projectPath": "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\ProjSMGBit.Data.csproj"
               },
-              "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj": {
-                "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj"
+              "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj": {
+                "projectPath": "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj"
               }
             }
           }
@@ -128,6 +128,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "ConvertCsvToJson": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.2, )"
@@ -141,6 +145,10 @@
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -171,14 +179,14 @@
         }
       }
     },
-    "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj": {
+    "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj",
         "projectName": "ProjSMGBit.Domain",
-        "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj",
+        "projectPath": "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj",
         "packagesPath": "C:\\Users\\wende\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\obj\\",
+        "outputPath": "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wende\\AppData\\Roaming\\NuGet\\NuGet.Config"
