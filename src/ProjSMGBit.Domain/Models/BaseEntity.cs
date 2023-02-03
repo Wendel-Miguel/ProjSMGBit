@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ProjSMGBit.Domain.Models
 {
-    public class BaseEntity
+    public abstract class BaseEntity
     {
         public int Id { get; private set; }
     }

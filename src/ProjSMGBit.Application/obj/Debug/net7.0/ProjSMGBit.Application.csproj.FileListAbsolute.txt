@@ -1,0 +1,5 @@
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\ProjSMGBit.Application\obj\Debug\net7.0\ProjSMGBit.Application.csproj.AssemblyReference.cache
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\ProjSMGBit.Application\obj\Debug\net7.0\ProjSMGBit.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\ProjSMGBit.Application\obj\Debug\net7.0\ProjSMGBit.Application.AssemblyInfoInputs.cache
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\ProjSMGBit.Application\obj\Debug\net7.0\ProjSMGBit.Application.AssemblyInfo.cs
+C:\Users\wende\OneDrive\Documentos\Desenvolvimento\ProjSMGBit\src\ProjSMGBit.Application\obj\Debug\net7.0\ProjSMGBit.Application.csproj.CoreCompileInputs.cache
