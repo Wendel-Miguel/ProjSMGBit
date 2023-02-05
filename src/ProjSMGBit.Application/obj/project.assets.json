@@ -2,16 +2,17 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "ConvertCsvToJson/1.0.0": {
+      "CsvHelper/30.0.1": {
         "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.3"
-        },
         "compile": {
-          "lib/net5.0/ConvertCsvToJson.dll": {}
+          "lib/net6.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net5.0/ConvertCsvToJson.dll": {}
+          "lib/net6.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Humanizer.Core/2.14.1": {
@@ -1783,18 +1784,28 @@
     }
   },
   "libraries": {
-    "ConvertCsvToJson/1.0.0": {
-      "sha512": "jHyiQzw0ksUsSzSRrQ8xOpKDdblSxhMuS1WvegVh2cNbDskd3TILjYtSqeZ+ExLQqh2DqHmIQPgBqKrwX+0Jnw==",
+    "CsvHelper/30.0.1": {
+      "sha512": "rcZtgbWR+As4G3Vpgx0AMNmShGuQLFjkHAPIIflzrfkJCx8/AOd4m96ZRmiU1Wi39qS5UVjV0P8qdgqOo5Cwyg==",
       "type": "package",
-      "path": "convertcsvtojson/1.0.0",
+      "path": "csvhelper/30.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "MIT-LICENSE.txt",
-        "convertcsvtojson.1.0.0.nupkg.sha512",
-        "convertcsvtojson.nuspec",
-        "csv-image.png",
-        "lib/net5.0/ConvertCsvToJson.dll"
+        "Icon.png",
+        "csvhelper.30.0.1.nupkg.sha512",
+        "csvhelper.nuspec",
+        "lib/net45/CsvHelper.dll",
+        "lib/net45/CsvHelper.xml",
+        "lib/net47/CsvHelper.dll",
+        "lib/net47/CsvHelper.xml",
+        "lib/net5.0/CsvHelper.dll",
+        "lib/net5.0/CsvHelper.xml",
+        "lib/net6.0/CsvHelper.dll",
+        "lib/net6.0/CsvHelper.xml",
+        "lib/netstandard2.0/CsvHelper.dll",
+        "lib/netstandard2.0/CsvHelper.xml",
+        "lib/netstandard2.1/CsvHelper.dll",
+        "lib/netstandard2.1/CsvHelper.xml"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -5769,7 +5780,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "ConvertCsvToJson >= 1.0.0",
+      "CsvHelper >= 30.0.1",
       "Microsoft.EntityFrameworkCore >= 7.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.2",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
@@ -5786,11 +5797,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj",
+      "projectUniqueName": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj",
       "projectName": "ProjSMGBit.Application",
-      "projectPath": "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj",
+      "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj",
       "packagesPath": "C:\\Users\\wende\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\obj\\",
+      "outputPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wende\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5805,11 +5816,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\ProjSMGBit.Data.csproj": {
-              "projectPath": "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\ProjSMGBit.Data.csproj"
+            "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\ProjSMGBit.Data.csproj": {
+              "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\infra\\ProjSMGBit.Data\\ProjSMGBit.Data.csproj"
             },
-            "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj": {
-              "projectPath": "c:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj"
+            "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj": {
+              "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj"
             }
           }
         }
@@ -5824,9 +5835,9 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
-          "ConvertCsvToJson": {
+          "CsvHelper": {
             "target": "Package",
-            "version": "[1.0.0, )"
+            "version": "[30.0.1, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",

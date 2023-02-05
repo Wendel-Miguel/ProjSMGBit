@@ -1,9 +1,11 @@
+using System.Globalization;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ConvertCsvToJson;
 using ProjSMGBit.Domain.Models;
+using ProjSMGBit.Application.Mapping;
+using CsvHelper;
 
 namespace ProjSMGBit.Application.Services
 {
@@ -13,15 +15,12 @@ namespace ProjSMGBit.Application.Services
 
         public ProcessTravels(string csvPath)
         {
-            var travelsJson = ConvertCsvFileToJsonObject(csvPath);
-
-            try
+            using (var reader = new StreamReader(csvPath))
+            using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
-                Travels = JsonConvert.DeserializeObject<IList<Travel>>(travelsJson);
-            }
-            catch (Exception ex)
-            {
-                throw ex;
+                csv.Context.RegisterClassMap<TravelMap>();
+                Travels = csv.GetRecords<Travel>().ToList();
+                Console.Write(Travels);
             }
         }
     }

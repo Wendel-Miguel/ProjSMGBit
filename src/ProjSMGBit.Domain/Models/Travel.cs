@@ -8,6 +8,7 @@ namespace ProjSMGBit.Domain.Models
 {
     public class Travel : BaseEntity
     {
+        #region Properties;
         public DateTime TravelDate { get; private set; }
 
         public int TravelId { get; private set; }
@@ -31,5 +32,11 @@ namespace ProjSMGBit.Domain.Models
         public TravelType Type { get; private set; }
 
         public double Price { get; private set; }
+        #endregion;
+
+        public Travel()
+        {
+            
+        }
     }
 }
