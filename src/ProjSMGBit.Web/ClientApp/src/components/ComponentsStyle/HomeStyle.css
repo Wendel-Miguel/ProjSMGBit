@@ -1,0 +1,81 @@
+main {
+    text-align: center;
+    width: 100%;
+    margin: 0px 0;
+}
+
+form
+{
+    display: inline-block;
+    text-align: center;
+    width: 800px;
+    height: 250px;
+    background-color: #5F94BC;
+    border: 1px solid #5F94BC;
+    border-radius: 15px;
+}
+
+form div
+{
+    position: relative;
+    width: 799px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #5F94BC;
+    border-radius: 15px;
+    display: block;
+}
+
+input[type="text"]
+{
+    margin-top:80px;
+    width: 400px;
+    padding: 20px 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    width: 200px;
+    padding: 20px 10px;
+    background-color: #5F94BC;
+    color: #fff;
+    margin-left: 15px;
+    border: 1px solid #5F94BC;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .5s;
+}
+
+label:hover {
+    background-color: #89a5bb;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+input[type="submit"] 
+{
+    width: 799px;
+    height: 73px;
+    margin-top: -50px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .5s;
+}
+
+input[type="submit"]:hover
+{
+    background-color: #89a5bb;
+    border: 1px solid #89a5bb;
+}
+
