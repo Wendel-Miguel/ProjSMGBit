@@ -5483,7 +5483,8 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.AspNetCore.SpaProxy >= 7.0.2",
-      "ProjSMGBit.Application >= 1.0.0"
+      "ProjSMGBit.Application >= 1.0.0",
+      "ProjSMGBit.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5513,6 +5514,9 @@
           "projectReferences": {
             "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj": {
               "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj"
+            },
+            "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj": {
+              "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj"
             }
           }
         }

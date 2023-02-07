@@ -256,6 +256,9 @@
             "projectReferences": {
               "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj": {
                 "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Application\\ProjSMGBit.Application.csproj"
+              },
+              "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj": {
+                "projectPath": "C:\\Users\\wende\\OneDrive\\Documentos\\Desenvolvimento\\ProjSMGBit\\src\\ProjSMGBit.Domain\\ProjSMGBit.Domain.csproj"
               }
             }
           }

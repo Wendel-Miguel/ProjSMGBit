@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './ComponentsStyle/HomeStyle.css'
 
+const baseUrl = document.getElementsByTagName('base')[0].getAttribute('href');
 
 export class Home extends Component {
   static displayName = Home.name;
@@ -17,10 +18,11 @@ export class Home extends Component {
     this.csvPath = event.target.value;
     var txt_csvPath = document.getElementById("txt_csvPath");
     txt_csvPath.value = this.csvPath;
+    this.SendCsvTravel();
   }
 
-  handleSubmit() {
-
+  handleSubmit(){
+    this.SendCsvTravel()
   }
 
   render() {
@@ -34,5 +36,23 @@ export class Home extends Component {
         <input type="submit" value="Processar Viagem" />
       </form>
     );
+  }
+
+  async SendCsvTravel() {
+    try {
+      const response = await fetch('travel/startprocesstravel', {
+        method:'POST',
+        body: this.csvPath,
+        headers : {
+          'Content-type': 'plain/text'
+        }
+      });
+      const data = await response.json();
+      console.log(data);
+    }
+    catch (e)
+    {
+      console.log("Error" + e);
+    }
   }
 }

@@ -11,7 +11,7 @@ namespace ProjSMGBit.Application.Services
 {
     public class ProcessTravels
     {
-        public IList<Travel> Travels { get; private set; }
+        public IEnumerable<Travel> Travels { get; private set; }
 
         public ProcessTravels(string csvPath)
         {
@@ -20,7 +20,6 @@ namespace ProjSMGBit.Application.Services
             {
                 csv.Context.RegisterClassMap<TravelMap>();
                 Travels = csv.GetRecords<Travel>().ToList();
-                Console.Write(Travels);
             }
         }
     }

@@ -9,7 +9,8 @@
       "ProjSMGBit.Web/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.SpaProxy": "7.0.2",
-          "ProjSMGBit.Application": "1.0.0"
+          "ProjSMGBit.Application": "1.0.0",
+          "ProjSMGBit.Domain": "1.0.0"
         },
         "runtime": {
           "ProjSMGBit.Web.dll": {}

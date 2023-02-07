@@ -2,6 +2,13 @@ using ProjSMGBit.Application.DI;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configure Logging
+builder.Host.ConfigureLogging(logging =>
+{
+    logging.ClearProviders();
+    logging.AddConsole();
+});
+
 // Add services to the container.
 Initializer.Configure(builder.Services, "Server=127.0.0.1; Port=3306; Database=projsmgbit; Uid=root; Pwd=root;");
 builder.Services.AddControllersWithViews();
